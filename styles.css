@@ -174,16 +174,16 @@ footer {
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  bottom: 8px;
-  left: 10px;
-  right: 10px;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
   padding: 10px;
   background-image: linear-gradient(90deg, #af2896, #509bf5);
   color: #fff;
   height: 50px;
 }
 
-.footer__content {
+.footer__text {
   display: flex;
   flex-direction: column;
   font-family: --font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr,
@@ -191,27 +191,24 @@ footer {
     var(--fallback-fonts, sans-serif);
 }
 
-.footer__text {
+.footer__title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
   margin-bottom: 10px;
+}
+
+.footer__subtitle {
+  font-weight: 500;
   font-size: 14px;
 }
 
-.footer__content .text1 {
-  font-weight: 700;
-}
-
-.footer__content .text2 {
-  font-weight: 400;
-}
-
 .footer__button {
-  box-sizing: border-box;
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
-  text-align: center;
-  padding: 15px;
+  padding: 14px 30px;
   border: 0;
-  border-radius: 20px;
-  width: 180px;
+  border-radius: 40px;
+  flex-shrink: 0;
 }
